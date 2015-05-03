@@ -1104,6 +1104,7 @@ void IrcBot::affectionCom(char *buf){
             if(user->affeLvl <= -50){
                 user->affeLvl = -50;
             }
+            
         }else if(randomNum>80){
             user->affeLvl += 2;
             strcpy(witty,"Ew, take me out on a date before we multiply.");
